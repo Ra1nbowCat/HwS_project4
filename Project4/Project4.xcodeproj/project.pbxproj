@@ -12,6 +12,7 @@
 		00322EA3281D542500C17ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00322EA1281D542500C17ECF /* Main.storyboard */; };
 		00322EA5281D542600C17ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00322EA4281D542600C17ECF /* Assets.xcassets */; };
 		00322EA8281D542600C17ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00322EA6281D542600C17ECF /* LaunchScreen.storyboard */; };
+		00322EB0281D58C500C17ECF /* CountriesTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00322EAF281D58C500C17ECF /* CountriesTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		00322EA4281D542600C17ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00322EA7281D542600C17ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00322EA9281D542600C17ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00322EAF281D58C500C17ECF /* CountriesTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				00322E9B281D542500C17ECF /* AppDelegate.swift */,
 				00322E9D281D542500C17ECF /* SceneDelegate.swift */,
+				00322EAF281D58C500C17ECF /* CountriesTableTableViewController.swift */,
 				00322EA1281D542500C17ECF /* Main.storyboard */,
 				00322EA4281D542600C17ECF /* Assets.xcassets */,
 				00322EA6281D542600C17ECF /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00322E9C281D542500C17ECF /* AppDelegate.swift in Sources */,
+				00322EB0281D58C500C17ECF /* CountriesTableTableViewController.swift in Sources */,
 				00322E9E281D542500C17ECF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
