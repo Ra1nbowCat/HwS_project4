@@ -34,6 +34,13 @@ class CountriesTableTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-            return "All avaliable flags:"
+        return "All avaliable flags:"
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "Flag") as? FlagViewController {
+            vc.flagName = flags[indexPath.row]
+            navigationController?.pushViewController(vc, animated: true)
         }
+    }
 }

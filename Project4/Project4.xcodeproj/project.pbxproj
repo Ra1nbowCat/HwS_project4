@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00275AD3281FB3D10028FA2F /* FlagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00275AD2281FB3D10028FA2F /* FlagViewController.swift */; };
 		00322E9C281D542500C17ECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00322E9B281D542500C17ECF /* AppDelegate.swift */; };
 		00322E9E281D542500C17ECF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00322E9D281D542500C17ECF /* SceneDelegate.swift */; };
 		00322EA3281D542500C17ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00322EA1281D542500C17ECF /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00275AD2281FB3D10028FA2F /* FlagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagViewController.swift; sourceTree = "<group>"; };
 		00322E98281D542500C17ECF /* Project4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00322E9B281D542500C17ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00322E9D281D542500C17ECF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				00322E9B281D542500C17ECF /* AppDelegate.swift */,
 				00322E9D281D542500C17ECF /* SceneDelegate.swift */,
 				00322EAF281D58C500C17ECF /* CountriesTableTableViewController.swift */,
+				00275AD2281FB3D10028FA2F /* FlagViewController.swift */,
 				00322EA1281D542500C17ECF /* Main.storyboard */,
 				00322EA4281D542600C17ECF /* Assets.xcassets */,
 				00322EA6281D542600C17ECF /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00275AD3281FB3D10028FA2F /* FlagViewController.swift in Sources */,
 				00322E9C281D542500C17ECF /* AppDelegate.swift in Sources */,
 				00322EB0281D58C500C17ECF /* CountriesTableTableViewController.swift in Sources */,
 				00322E9E281D542500C17ECF /* SceneDelegate.swift in Sources */,
