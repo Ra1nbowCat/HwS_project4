@@ -14,22 +14,26 @@ class FlagViewController: UIViewController {
     let imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        //imageView.clipsToBounds = true
-        imageView.contentMode = .scaleAspectFill
-        //imageView.layer.borderWidth = 1
-        //imageView.layer.borderColor = UIColor.darkGray.cgColor
+        imageView.contentMode = .scaleToFill
+        imageView.layer.borderWidth = 1
+        imageView.layer.borderColor = UIColor.darkGray.cgColor
         return imageView
     } ()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(imageView)
-        imageView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
-        imageView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
-        imageView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        
+        activateConstraints()
+
         if let imageToLoad = flagName {
             imageView.image = UIImage(named: imageToLoad)
         }
+    }
+    
+    func activateConstraints() {
+        imageView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20).isActive = true
+        imageView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive = true
+        imageView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        imageView.heightAnchor.constraint(equalToConstant: view.frame.size.height / 5).isActive = true
     }
 }
